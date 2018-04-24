@@ -97,7 +97,7 @@ namespace Anysma
             RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.up);
             if (hit)
             {
-                if (hit.transform.tag == "Player")
+                if (hit.transform.tag == target.tag)
                 {
                     state = States.Aggressive;
                     if (hit.distance < 5)
@@ -136,7 +136,7 @@ namespace Anysma
             Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, 7);
             foreach (Collider2D hit in hits)
             {
-                if (hit.tag == "Player")
+                if (hit.tag == target.tag)
                 {
                     if (state != States.AggressiveLook && state != States.Aggressive)
                     {
