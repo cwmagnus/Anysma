@@ -12,6 +12,11 @@ To open this project you just need Unity 2017.3.1 or higher.
 
 You can get Unity [here](https://store.unity.com/).
 
-## Installing & Running
+### Installing & Running
 
-Just open Unity and open this project in it!
+First you need to clone or download the project.
+You can either click the clone or download button or type this in your command prompt:
+```
+$ git clone git@github.com:cwmagnus/Anysma.git
+```
+Just open up Unity, browse to this project folder, and open it up!
