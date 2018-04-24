@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
 
 namespace Anysma
@@ -11,8 +10,12 @@ namespace Anysma
     {
         [SerializeField]
         private float health;
-
         private float originalHealth;
+
+        /// <summary>
+        /// Take damage event to hook.
+        /// </summary>
+        public event Action<float> OnTakeDamage = delegate(float damage) { };
 
         /// <summary>
         /// Set the original health.
@@ -29,6 +32,7 @@ namespace Anysma
         public void TakeDamage(float damage)
         {
             health -= damage;
+            OnTakeDamage(damage);
         }
 
         /// <summary>
