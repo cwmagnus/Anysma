@@ -1,6 +1,6 @@
 # Anysma
 
-Anysma is a small text-based space shooter game created for Ludum Dare 41.
+Anysma was originally created as a small text-based space shooter game created for Ludum Dare 41.
 
 ## Getting Started
 
@@ -8,7 +8,7 @@ Anysma was created with Unity game engine so it is very easy to get up and runni
 
 ### Prerequisites
 
-To open this project you just need Unity 2017.3.1 or higher.
+To open this project you just need Unity 2018.1 or higher.
 
 You can get Unity [here](https://store.unity.com/).
 
