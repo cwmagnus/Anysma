@@ -17,6 +17,6 @@ You can get Unity [here](https://store.unity.com/).
 First you need to clone or download the project.
 You can either click the clone or download button or type this in your command prompt:
 ```
-$ git clone git@github.com:cwmagnus/Anysma.git
+$ git clone git@github.com:cwmagnus/AnysmaLD.git
 ```
 Just open up Unity, browse to this project folder, and open it up!
